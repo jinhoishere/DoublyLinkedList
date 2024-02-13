@@ -115,9 +115,9 @@ private:
 	/// All data elements are public, since only class sequence can see SequenceNodes
 	class SequenceNode {
 	public:
-		SequenceNode* next; // pointer to next Node. If node is the tail, next is nullptr
 		SequenceNode* prev; // pointer to previous Node. If node is the head, prev is nullptr
 		value_type elt; // the element being stored in the node
+		SequenceNode* next; // pointer to next Node. If node is the tail, next is nullptr
 
 		/// @brief empty constructor, ensure next and prev are nullptr
 		SequenceNode() : next(nullptr), prev(nullptr)
