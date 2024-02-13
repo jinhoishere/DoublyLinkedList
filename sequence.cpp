@@ -1,4 +1,4 @@
-#include "Sequence.h"
+#include "sequence.h"
 
 Sequence::Sequence(size_type sz)
 {
