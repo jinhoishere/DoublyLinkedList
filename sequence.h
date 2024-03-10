@@ -1,3 +1,7 @@
+// CS 3100 project 3 by Jinho Nam
+// There must be "sequence.cpp" file in the same directory to use this file.
+// "test.cpp" is the main file.
+
 #pragma once
 // FILE: sequence.h
 // CLASS PROVIDED: Sequence
